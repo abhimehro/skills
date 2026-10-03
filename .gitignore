@@ -1,2 +1,4 @@
 node_modules
 .claude
+# Causari local ledger — captured prompts, completions and reasoning.
+.causari/
