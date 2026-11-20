@@ -27,7 +27,7 @@ jobs:
         run: npm ci
 
       - name: Create Version Pull Request
-        uses: changesets/action@v1
+        uses: changesets/action@v2
         with:
           version: npm run version
           publish: npx changeset tag
